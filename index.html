@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anuj Kapoor | AI Product Engineer Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Anuj Kapoor: AI product engineering, copilot workflows, cloud systems, and research-backed innovation."
+    />
+    <meta name="theme-color" content="#0b121a" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700;800&family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/dompurify@3.1.7/dist/purify.min.js"
+      defer
+    ></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient ambient-warm"></div>
+    <div class="ambient ambient-cool"></div>
+    <div class="ambient-grid"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#/">
+        <span class="brand-dot"></span>
+        <span class="brand-text">Anuj Kapoor</span>
+      </a>
+      <nav class="top-links" aria-label="Primary">
+        <a href="#/ai-leadership-brief">Leadership</a>
+        <a href="#/experience">Experience</a>
+        <a href="#/projects/copilot-customer-support">Projects</a>
+        <a href="#/publications">Publications</a>
+        <a href="enhancements/Resume_latest.pdf" target="_blank" rel="noopener noreferrer">Resume PDF</a>
+        <a href="#/contact" class="top-link-pill">Contact</a>
+      </nav>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">
+        Menu
+      </button>
+    </header>
+
+    <div class="shell">
+      <aside id="sidebar" class="sidebar" aria-label="Section navigation">
+        <section>
+          <p class="sidebar-title">Main</p>
+          <a href="#/" data-route="/">Home</a>
+          <a href="#/about" data-route="/about">About</a>
+          <a href="#/ai-leadership-brief" data-route="/ai-leadership-brief">AI Leadership Brief</a>
+          <a href="#/experience" data-route="/experience">Experience</a>
+          <a href="#/resume" data-route="/resume">Resume</a>
+          <a href="#/contact" data-route="/contact">Contact</a>
+        </section>
+        <section>
+          <p class="sidebar-title">Projects</p>
+          <a href="#/projects/copilot-customer-support" data-route="/projects/copilot-customer-support">Copilot for Support</a>
+          <a href="#/projects/alexa-smart-home" data-route="/projects/alexa-smart-home">Alexa Smart Home</a>
+          <a href="#/projects/kiara-db" data-route="/projects/kiara-db">Kiara DB</a>
+          <a href="#/projects/kiara-usage" data-route="/projects/kiara-usage">Kiara Usage Guide</a>
+          <a href="#/projects/agent-alina" data-route="/projects/agent-alina">Agent Alina</a>
+        </section>
+        <section>
+          <p class="sidebar-title">Research</p>
+          <a href="#/publications" data-route="/publications">Publications</a>
+        </section>
+      </aside>
+
+      <main class="main-content">
+        <section class="hero-panel reveal">
+          <div>
+            <p id="route-label" class="route-label">Public Portfolio</p>
+            <h1 id="page-title">Anuj Kapoor</h1>
+            <p id="page-subtitle" class="page-subtitle">
+              Building AI products that turn customer pain into scalable support, search, and automation experiences.
+            </p>
+            <div class="hero-badges">
+              <span>16 years in software engineering</span>
+              <span>Microsoft, Amazon, Priceline, Infosys</span>
+              <span>AI + Product + Cloud systems</span>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <img src="profilePics/p1.jpg" alt="Anuj Kapoor headshot" />
+          </div>
+        </section>
+
+        <article id="content" class="content-card reveal" aria-live="polite">
+          <p class="loading">Loading content...</p>
+        </article>
+      </main>
+    </div>
+
+  </body>
+</html>

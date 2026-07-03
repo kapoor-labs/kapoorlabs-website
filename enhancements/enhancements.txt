@@ -1,0 +1,15 @@
+headshot - headshot.jpg
+Kiara DB arch diagrams
+Kiara-cluster - shows a diagram about a typical cluster architecture
+kiara.png - is a graphic that highlights where kiara db stands out
+perfomance_kiara and performance_kiara2 are snapshots showing performance of kkiara in terms of latency
+
+For alina I have provided a demo link - please use it to show as an embeded video
+
+Public link
+https://www.linkedin.com/in/anuj-kapoor-38b6a899/
+
+Github 
+https://github.com/kapoorlabs/kiara
+
+Resume_latest.pdf is latest downloadable resume
